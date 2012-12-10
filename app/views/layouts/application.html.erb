@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:ipp="">
+<head>
+  <title>Time Stack</title>
+  <%= stylesheet_link_tag :all %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <% if @render_blue_dot %><ipp:blueDot></ipp:blueDot><% end %>
+  <div id="container">
+    <header>  
+      <!-- Logo -->
+      <h1 id="logo">Time Stack</h1>
+    </header>
+    <!-- The application "window" --> 
+    <div id="application">
+      <%= link_to "Logout", logout_path %><br />
+      <%= notice %><br />
+      <%= yield %>
+    </div>
+  </div>
+  <script src="https://js.appcenter.intuit.com/Content/IA/intuit.ipp.anywhere.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    intuit.ipp.anywhere.setup({
+      menuProxy: '<%= @blue_dot_url %>',
+      grantUrl: '<%= intuit_connect_url %>'
+    });
+  </script>
+</body>
+</html>

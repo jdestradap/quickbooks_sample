@@ -1,0 +1,9 @@
+<% if current_user.openid_identifier %>You have connected to Intuit<% else %><%= link_to "Connect to Intuit", intuit_sso_path %><% end %><br />
+
+<h3>Your Companies</h3>
+<% current_user.companies.each do |c| %>
+<%= link_to c.name, company_path(c) %><br />
+<% end %>
+
+<br /><br />
+<ipp:connectToIntuit></ipp:connectToIntuit>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:ipp="">
+<head>
+  <title>Time Stack</title>
+  <%= stylesheet_link_tag :all %>
+  <%= csrf_meta_tag %>
+</head>
+<body>
+  <div id="container" class="logincontainer">
+    <header>  
+      <!-- Logo -->
+      <h1 id="logo">Time Stack</h1>
+    </header>
+    <!-- The application "window" --> 
+    <div id="application">
+      <%= notice %><br />
+      <%= yield %>
+    </div>
+  <script src="https://js.appcenter.intuit.com/Content/IA/intuit.ipp.anywhere.js" type="text/javascript"></script>
+  </div>
+</body>
+</html>

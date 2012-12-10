@@ -1,0 +1,75 @@
+html, body { min-height: 100%; }
+
+body {
+  background: #3fbff0;
+}
+
+
+#container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#container.logincontainer {
+  width: 400px;
+}
+
+#container header {
+  margin-top: 100px;
+  color: white;
+}
+
+#application {
+  padding: 10px;
+  margin-top: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px #444;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.formtastic input {
+  font-size: 14px;
+  padding: 3px;
+}
+
+#new_user_session li.commit.button input, #new_user li.commit.button input, a.button {
+  padding: 6px 10px;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border: solid 1px #999999;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#dddddd));
+  color: #333333;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-shadow: 0px 1px 1px white;
+  line-height: 1;
+}
+#new_user_session li.commit.button input:hover, #new_user li.commit.button input:hover, a.button:hover {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f8f8f8), to(#dddddd));
+}
+#new_user_session li.commit.button input:active, #new_user li.commit.button input:active, a.button:active {
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cccccc), to(#dddddd));
+}
+#new_user_session li.commit.button input, #new_user li.commit.button input {
+  padding: 8px 14px;
+  font-size: 20px;
+  font-weight: bold; 
+}
+
+#alternate-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a.button.large {
+  padding: 12px 20px;
+  font-size: 21px;
+  font-weight: bold;
+}
+

@@ -1,0 +1,135 @@
+/* line 1, ../../app/stylesheets/reset.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 10, ../../app/stylesheets/reset.sass */
+body {
+  line-height: 1;
+}
+
+/* line 13, ../../app/stylesheets/reset.sass */
+ol, ul {
+  list-style: none;
+}
+
+/* line 16, ../../app/stylesheets/reset.sass */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 20, ../../app/stylesheets/reset.sass */
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 25, ../../app/stylesheets/reset.sass */
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 29, ../../app/stylesheets/reset.sass */
+ins {
+  text-decoration: none;
+}
+
+/* line 32, ../../app/stylesheets/reset.sass */
+del {
+  text-decoration: line-through;
+}
+
+/* line 35, ../../app/stylesheets/reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 39, ../../app/stylesheets/reset.sass */
+.clear {
+  clear: both;
+}
+
+/* line 42, ../../app/stylesheets/reset.sass */
+body {
+  font: 13px/1.5 "Lucinda Grande", Arial, Helvetica, Verdana, "Liberation Sans", FreeSans, sans-serif;
+}
+
+/* line 45, ../../app/stylesheets/reset.sass */
+a:focus {
+  outline: 1px dotted invert;
+}
+
+/* line 48, ../../app/stylesheets/reset.sass */
+hr {
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+/* line 55, ../../app/stylesheets/reset.sass */
+h1 {
+  font-size: 25px;
+}
+
+/* line 58, ../../app/stylesheets/reset.sass */
+h2 {
+  font-size: 21px;
+}
+
+/* line 61, ../../app/stylesheets/reset.sass */
+h3 {
+  font-size: 19px;
+}
+
+/* line 64, ../../app/stylesheets/reset.sass */
+h4 {
+  font-size: 17px;
+}
+
+/* line 67, ../../app/stylesheets/reset.sass */
+h5 {
+  font-size: 15px;
+}
+
+/* line 70, ../../app/stylesheets/reset.sass */
+h6 {
+  font-size: 14px;
+}
+
+/* line 73, ../../app/stylesheets/reset.sass */
+ol {
+  list-style: decimal;
+}
+
+/* line 76, ../../app/stylesheets/reset.sass */
+ul {
+  list-style: square;
+}
+
+/* line 79, ../../app/stylesheets/reset.sass */
+li {
+  margin-left: 30px;
+}
+
+/* line 82, ../../app/stylesheets/reset.sass */
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
+  margin-bottom: 10px;
+}
+
+/* line 85, ../../app/stylesheets/reset.sass */
+body {
+  font-size: 75%;
+  color: #222222;
+  background: white;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
